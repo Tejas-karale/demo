@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-31T15:50:56 IST" name="Suite" finished-at="2025-07-31T15:51:22 IST" duration-ms="26420">
+    <groups>
+    </groups>
+    <test started-at="2025-07-31T15:50:56 IST" name="Test" finished-at="2025-07-31T15:51:22 IST" duration-ms="26420">
+      <class name="testCases.TC002_AERegistrationTest">
+        <test-method is-config="true" signature="SetUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_AERegistrationTest@c33b74f]" started-at="2025-07-31T15:50:56 IST" name="SetUp" finished-at="2025-07-31T15:51:04 IST" duration-ms="7982" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[macOS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="VerifyAccount()[pri:0, instance:testCases.TC002_AERegistrationTest@c33b74f]" started-at="2025-07-31T15:51:04 IST" name="VerifyAccount" finished-at="2025-07-31T15:51:11 IST" duration-ms="7163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_AERegistrationTest@c33b74f]" started-at="2025-07-31T15:51:11 IST" name="tearDown" finished-at="2025-07-31T15:51:11 IST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC002_AERegistrationTest -->
+      <class name="testCases.TC001_AELoginTest">
+        <test-method is-config="true" signature="SetUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AELoginTest@7722c3c3]" started-at="2025-07-31T15:51:11 IST" name="SetUp" finished-at="2025-07-31T15:51:17 IST" duration-ms="5733" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[macOS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="verify_Logiin()[pri:0, instance:testCases.TC001_AELoginTest@7722c3c3]" started-at="2025-07-31T15:51:17 IST" name="verify_Logiin" finished-at="2025-07-31T15:51:22 IST" duration-ms="5184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Logiin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AELoginTest@7722c3c3]" started-at="2025-07-31T15:51:22 IST" name="tearDown" finished-at="2025-07-31T15:51:22 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC001_AELoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
